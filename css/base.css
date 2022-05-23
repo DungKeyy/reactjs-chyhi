@@ -1,0 +1,283 @@
+/*common*/
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'BebasNeue','Lato', "Times New Roman", serif;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+    
+}
+li{
+    list-style-type: none;
+}
+.fas{
+    line-height: 55px !important;
+}
+.wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.font-text{
+    font-family: 'Dosis', sans-serif;
+}
+.font-head{
+    font-family: 'Caveat', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+.img-hover:hover{
+
+}
+.justify-content-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.font-black{
+    color: black;
+}
+.font-white{
+    color: white !important;
+}
+.font-weight{
+    font-weight: 600 !important;
+
+}
+.bg-header{
+    background-color:  #e4d3bd;
+}
+
+.border-radius{
+    border-radius: 6px;
+}
+.full-height{
+    height: 100% !important;
+}
+.lh-55{
+    line-height: 55px !important;
+}
+.mt-15{
+    margin-top: 15px !important;
+}
+.ml-12{
+    margin-left: 15px !important;
+}
+.mr--12{
+    margin: 0px -12px !important;
+
+}
+.mr-12{
+    margin-right: 15px !important;
+}
+.pl-lr{
+    padding: 0px !important;
+}
+
+/*---------btn---------------*/
+.btns{
+    padding: 5px 15px;
+    display: block;
+    text-decoration: none;
+    color: antiquewhite !important;
+    border-radius: 3px;
+    border: 0.5px solid rgb(136, 135, 135);
+    margin: 15px;
+}
+
+.btns:hover{
+    background-color: #ecba39;
+    transition: 2s;
+    border-color: #ecba39;
+}
+.btn-blue,
+.btn-white,
+.btn-yellow{
+    
+    padding: 3px 15px;
+    border: 0px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.btn-blue{
+    background-color: #074743;
+   
+    color: white;
+}
+.btn-blue:hover{
+    background-color: white;
+    color: #074743;
+}
+.btn-white{
+
+}
+.btn-white:hover{
+    background-color: #074743;
+    color: white;
+}
+.font-type--heading
+.btn-yellow{
+    background-color: #faa61a !important;
+    border: 1px solid #dc8b05;
+    margin-right: 20px;
+    padding: 2px 15px;
+}
+.btn-yellow:hover{
+
+}
+.btn-prev{
+    transition: 0.5s;
+    background-color: #074743;
+    color: white;
+    padding: 2px 15px;
+    margin-right: 20px;
+    border: 1px solid #074743;
+}
+.btn-prev:hover{
+    background-color: #faa61a;
+    border: 1px solid #dc8b05;
+    color: black;
+}
+
+
+/*------------chia-------------*/
+.two{
+    width: 50%;
+}
+.three{
+    width: 30%;
+}
+.canle{
+    max-width: 1230px;
+    margin: 0px 15px;
+   
+}
+.w40{
+    width: 40% !important;
+}
+
+
+.list{
+    max-width:1230px;
+    display: flex;
+     height: 100%;
+    margin: 0px auto;
+}
+.list1{
+   
+    max-width:1230px;
+    display: flex;
+    margin: 0px auto;
+}
+/*---------------style--------------*/
+
+.font-type--heading{
+    font-size: 35px;
+    font-weight: 700;
+    color: #faa61a;
+    text-align: center;
+   padding: 50px 0px 20px;
+}
+
+/*------keyframe--------*/
+@keyframes zoomInOut{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes spin01{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinleft{
+    0%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+ 
+@keyframes spinright{
+    0%{
+        transform: translateX(300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes spinbottom{
+    0%{
+        transform: translateY(300%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes animate1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/*------fixed-------------*/
+
+.fix-icon__left{
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    margin-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fix-icon__right{
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.messenger_link,
+.phone_link,
+.grap_link{
+    margin-bottom: 10px;
+}
